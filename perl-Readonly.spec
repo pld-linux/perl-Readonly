@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Readonly
+%define		pdir	Readonly
 Summary:	Readonly - facility for creating read-only scalars, arrays, hashes
 Summary(pl):	Readonly - udogodnienie do tworzenia zmiennych tylko do odczytu
 Name:		perl-Readonly
