@@ -15,7 +15,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/R/RO/ROODE/%{pdir}-%{version}.tar.gz
 # Source0-md5:	0acef3a995ac9ecf575f66a726d638f4
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 5.6.1
+BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-Test-Simple
 BuildRequires:	perl-Test-Harness
