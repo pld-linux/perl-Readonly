@@ -4,8 +4,8 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Readonly
-Summary:	Readonly - Facility for creating read-only scalars, arrays, hashes
-Summary(pl):	Readonly - Udogodnienie do tworzenia zmiennych tylko do odczytu
+Summary:	Readonly - facility for creating read-only scalars, arrays, hashes
+Summary(pl):	Readonly - udogodnienie do tworzenia zmiennych tylko do odczytu
 Name:		perl-Readonly
 Version:	1.02
 Release:	1
