@@ -7,7 +7,7 @@
 Summary:	Readonly - Facility for creating read-only scalars, arrays, hashes
 Summary(pl):	Readonly - Udogodnienie do tworzenia zmiennych tylko do odczytu
 Name:		perl-Readonly
-Version:	1.00
+Version:	1.01
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
