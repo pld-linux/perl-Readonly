@@ -38,7 +38,7 @@ wy³apuj±c próby zapisu do zmiennych, które nie powinny byæ zmieniane.
 %setup -q -n %{pdir}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
