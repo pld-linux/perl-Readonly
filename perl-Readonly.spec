@@ -11,7 +11,7 @@ Version:	1.00
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/authors/id/R/RO/ROODE/%{pdir}-%{version}.tar.gz
+Source0:	http://www.cpan.org/authors/id/R/RO/ROODE/%{pdir}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6.1
 %if %{?_without_tests:0}%{!?_without_tests:1}
