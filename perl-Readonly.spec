@@ -9,7 +9,8 @@ Summary(pl):	Readonly - udogodnienie do tworzenia zmiennych tylko do odczytu
 Name:		perl-Readonly
 Version:	1.03
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/R/RO/ROODE/%{pdir}-%{version}.tar.gz
 # Source0-md5:	0acef3a995ac9ecf575f66a726d638f4
@@ -21,7 +22,6 @@ BuildRequires:	perl-Test-Harness
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 This is a facility for creating non-modifiable variables.  This is
