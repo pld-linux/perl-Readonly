@@ -12,6 +12,7 @@ Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/R/RO/ROODE/%{pdir}-%{version}.tar.gz
+# Source0-md5:	64a31798c8a409b85703821f35f58236
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6.1
 %if %{?_without_tests:0}%{!?_without_tests:1}
