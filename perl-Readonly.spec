@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Readonly
 Summary:	Readonly - facility for creating read-only scalars, arrays, hashes
-Summary(pl):	Readonly - udogodnienie do tworzenia zmiennych tylko do odczytu
+Summary(pl.UTF-8):   Readonly - udogodnienie do tworzenia zmiennych tylko do odczytu
 Name:		perl-Readonly
 Version:	1.03
 Release:	2
@@ -29,11 +29,11 @@ useful for configuration files, headers, etc.  It can also be useful as
 a development and debugging tool, for catching updates to variables that
 should not be changed.
 
-%description -l pl
-Readonly umo¿liwia tworzenie niemodyfikowalnych zmiennych.  Jest to
-u¿yteczne w plikach konfiguracyjnych, nag³ówkach, itp.  Mo¿e byæ tak¿e
-przydatne jako narzêdzie do rozwijania programów i wyszukiwania b³êdów,
-wy³apuj±c próby zapisu do zmiennych, które nie powinny byæ zmieniane.
+%description -l pl.UTF-8
+Readonly umoÅ¼liwia tworzenie niemodyfikowalnych zmiennych.  Jest to
+uÅ¼yteczne w plikach konfiguracyjnych, nagÅ‚Ã³wkach, itp.  MoÅ¼e byÄ‡ takÅ¼e
+przydatne jako narzÄ™dzie do rozwijania programÃ³w i wyszukiwania bÅ‚Ä™dÃ³w,
+wyÅ‚apujÄ…c prÃ³by zapisu do zmiennych, ktÃ³re nie powinny byÄ‡ zmieniane.
 
 %prep
 %setup -q -n %{pdir}-%{version}
