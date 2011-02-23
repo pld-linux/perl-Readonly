@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/R/RO/ROODE/%{pdir}-%{version}.tar.gz
 # Source0-md5:	0acef3a995ac9ecf575f66a726d638f4
+URL:		http://search.cpan.org/dist/Readonly/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
@@ -58,5 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/Readonly.pm
+%{_mandir}/man3/Readonly.3pm*
